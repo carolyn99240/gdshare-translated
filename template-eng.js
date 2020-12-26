@@ -1,14 +1,14 @@
 const CONFIG = {
-    PASSKEY: "this is your passkey", // Administrator web login key, please modify it yourself, as complicated as possible
-    HASHKEY: "this is your hash key", // It is used to verify the generated download link and sharing link. Please modify it yourself, as complicated as possible. After the modification, the previously generated download and sharing links will be invalid
+    PASSKEY: "dsp@1234", // Administrator web login key, please modify it yourself, as complicated as possible
+    HASHKEY: "123", // It is used to verify the generated download link and sharing link. Please modify it yourself, as complicated as possible. After the modification, the previously generated download and sharing links will be invalid
     RETRY_LIMIT: 5, // Sometimes an error will be reported when google drive api is called to read the directory, here is the maximum number of retries allowed
     PAGESIZE: 100, // The number of single-page objects in the read list, the official limit is 1000
     ORDERBY:'modifiedTime', // Optional value modifiedTime or name, respectively indicate sorting according to file modification time and sorting according to file name
     DESC: true, // Optional value true or false, respectively indicate reverse order and order
     AUTH: {
-        client_id: "insert_your_client_id", // These three items are your google account personal authorization information, the same as goindex
-        client_secret: "insert_your_client_secret", // Same as above required
-        refresh_token: "insert_your_refresh_token", // Same as above and required
+        client_id: "202264815644.apps.googleusercontent.com", // These three items are your google account personal authorization information, the same as goindex
+        client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ", // Same as above required
+        refresh_token: "1//03uV5o3sJgWY9CgYIARAAGAMSNwF-L9IrJLGzJvj0K2--69oSLvppPsIKDNsebtw6wTnSi49lFx5X00KUH6dQcBaWfFCb17Y89wk", // Same as above and required
         expires: 0,
         access_token: "" // optional
     }
